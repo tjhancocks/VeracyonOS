@@ -1,0 +1,12 @@
+
+
+        Yb    dP                                         .d88b. .d88b. 
+         Yb  dP  .d88b 8d8b .d88 .d8b Yb  dP .d8b. 8d8b. 8P  Y8 YPwww. 
+          YbdP   8.dP' 8P   8  8 8     YbdP  8' .8 8P Y8 8b  d8     d8 
+           YP    `Y88P 8    `Y88 `Y8P   dP   `Y8P' 8   8 `Y88P' `Y88P' 
+                                       dP                              
+
+
+Welcome to VeracyonOS, a part of the Veracyon Project.
+Copyright (c) 2018-2019 Tom Hancocks.
+

@@ -1,0 +1,6 @@
+# macOS Specific
+.DS_Store
+
+# VeracyonOS toolchain/builds specific
+*.o
+build/
