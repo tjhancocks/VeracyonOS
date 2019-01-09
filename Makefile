@@ -35,7 +35,7 @@ BUILD.boot-disk = $(BUILD)/VeracyonOS.img
 BUILD.sysrd = $(BUILD)/sysrd
 GRUB.menu-cfg = $(ROOT)/support/grub/menu.cfg
 
-DEPENDANCY.vkernel = $(ROOT)/../vkernel
+DEPENDANCY.vkernel = $(ROOT)/vkernel
 
 ################################################################################
 
@@ -48,7 +48,7 @@ clean:
 
 .PHONY: qemu
 qemu: $(BUILD.boot-disk)
-	qemu-system-x86_64\ -kernel $(BUILD.kernel) -serial stdio \
+	qemu-system-x86_64 -kernel $(BUILD.kernel) -serial stdio \
 		-initrd $(BUILD.sysrd)
 
 .PHONY: bochs

@@ -1,0 +1,3 @@
+[submodule "vkernel"]
+	path = vkernel
+	url = https://github.com/tjhancocks/vkernel
