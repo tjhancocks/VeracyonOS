@@ -32,9 +32,9 @@ attach $DISK
 # Copy appropriate files to disk
 mount
 
-import $BOOTCFG_PATH
-cd boot
-write menu.cfg
+#import $BOOTCFG_PATH
+#cd boot
+#write menu.cfg
 
 import $KERNEL_PATH
 write $KERNEL_NAME

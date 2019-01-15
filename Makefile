@@ -53,7 +53,13 @@ qemu: $(BUILD.boot-disk)
 
 .PHONY: bochs
 bochs: $(BUILD.boot-disk)
-
+	bochs -q "boot:a" "floppya: 1_44=$(BUILD.boot-disk), status=inserted" \
+		 "debug: action=ignore, floppy=report" \
+		 "magic_break: enabled=1" \
+		 "com1: enabled=1, mode=file, dev=bochs.log" \
+		 "port_e9_hack: enabled=1" \
+		 "memory: guest=512, host=256"
+		 # "cpuid: model=pentium_mmx, level=6, mmx=1"
 
 ################################################################################
 

@@ -4,3 +4,4 @@
 # VeracyonOS toolchain/builds specific
 *.o
 build/
+*.log
